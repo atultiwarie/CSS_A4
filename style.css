@@ -1,0 +1,161 @@
+.section1 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  background-image: linear-gradient(to right, red, green, 60%, yellow);
+}
+
+.section2 {
+  border: 2px solid red;
+  border-radius: 15px;
+  width: 800px;
+  margin: 0px auto;
+  margin-top: 15px;
+  text-align: center;
+  background-color: turquoise;
+  font-weight: bold;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.section3 {
+  border: 2px solid black;
+  background-color: aquamarine;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-radius: 15px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.p1 {
+  border: 2px solid green;
+  background-color: #00ffff;
+  border-radius: 10px;
+  font-weight: bold;
+  height: 50px;
+  width: 350px;
+  padding: 21px;
+  margin-top: -15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.box2 {
+  margin-top: 10px;
+  margin-bottom: -15px;
+  margin-left: 420px;
+}
+
+.section4 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 25px;
+  background-image: linear-gradient(to right, red, yellow, 60%, red);
+}
+
+.section5 {
+  display: flex;
+  justify-content: space-around;
+  background: radial-gradient(blue, aqua, green);
+  height: 200px;
+  align-items: center;
+}
+
+.box5 {
+  border: 2px solid red;
+  background-color: yellow;
+  width: 200px;
+  height: 100px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: brown;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.section6 {
+  border: 2px solid black;
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 5px;
+  row-gap: 5px;
+  width: 1250px;
+  height: auto;
+}
+
+.one {
+  grid-column: 1/5;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.two,
+.three {
+  height: 70px;
+  width: 360px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.two {
+  background-color: lightgreen;
+  color: aliceblue;
+}
+
+.three {
+  background-color: lightblue;
+  color: aliceblue;
+}
+
+.four {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  height: 70px;
+  width: 360px;
+}
+
+.five {
+  background-color: black;
+  color: white;
+  height: 185px;
+  width: 130px;
+  text-decoration: underline;
+  grid-column-start: 4;
+  grid-row: 2 / 8;
+}
+
+.six {
+  height: 100px;
+  color: white;
+  background-color: orange;
+  grid-column: 1 / 4;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+}
+
+.seven {
+  background-color: aqua;
+
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  grid-column: 1/5;
+}
